@@ -49,9 +49,9 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _selectedIndex,
-        onTap: (int position) {
+        onTap: (int pos) {
           setState(() {
-            _selectedIndex = position;
+            _selectedIndex = pos;
           });
         },
         selectedItemColor: Theme.of(context).primaryColor,
